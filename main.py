@@ -23,7 +23,7 @@ class Ejemplo01(QMainWindow):
         self.twgdata.setHorizontalHeaderLabels(nombreColumnas)
         self.b_nuevo.clicked.connect(self.reset)
         self.bagregar.clicked.connect(self.agregar)
-        # self.bsalir.clicked.connect(self.salir)
+        self.bsalir.clicked.connect(self.salir)
         self.cbox_cantidad.activated.connect(self.calcular)
         
         for i in range(100):
@@ -67,6 +67,9 @@ class Ejemplo01(QMainWindow):
             self.twgdata.setItem(indicefila,5,QtWidgets.QTableWidgetItem(str(dato["PAGO TOTAL"])))
             indicefila+=1
         opera.listado.clear()
+    
+    def salir(self):
+        self.close()
             
     
 
