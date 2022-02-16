@@ -427,7 +427,7 @@ background-color: rgb(170, 255, 127);
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="pushButton_2">
+        <widget class="QPushButton" name="bagregar">
          <property name="font">
           <font>
            <family>MS Shell Dlg 2</family>
@@ -467,7 +467,7 @@ background-color: rgb(170, 255, 127);
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="pushButton_3">
+        <widget class="QPushButton" name="bsalir">
          <property name="font">
           <font>
            <family>MS Shell Dlg 2</family>
