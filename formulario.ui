@@ -181,7 +181,7 @@ font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
       <string/>
      </property>
      <property name="alignment">
-      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      <set>Qt::AlignCenter</set>
      </property>
     </widget>
     <widget class="QLabel" name="lb_precio">
@@ -201,7 +201,7 @@ font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
       <string/>
      </property>
      <property name="alignment">
-      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      <set>Qt::AlignCenter</set>
      </property>
     </widget>
     <widget class="QLabel" name="lb_total">
@@ -221,7 +221,7 @@ font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
       <string/>
      </property>
      <property name="alignment">
-      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      <set>Qt::AlignCenter</set>
      </property>
     </widget>
     <widget class="QLabel" name="lb_igv">
@@ -241,7 +241,7 @@ font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
       <string/>
      </property>
      <property name="alignment">
-      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      <set>Qt::AlignCenter</set>
      </property>
     </widget>
     <widget class="QComboBox" name="cbox_cantidad">
@@ -312,7 +312,7 @@ font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">background-color: rgb(255, 255, 255);
+        <string notr="true">background-color: rgb(85, 255, 0);
 font: 12pt &quot;MS Shell Dlg 2&quot;;
 color: rgb(86, 0, 21);</string>
        </property>

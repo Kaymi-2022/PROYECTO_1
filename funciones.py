@@ -10,8 +10,8 @@ def igv (cantidad):
     IGV=calcularTotal(cantidad)*0.18
     return IGV
 
-def pagoTotal (precio,cantidad):
-    PagoTotal=calcularTotal(precio,cantidad)-igv(precio,cantidad)
+def pagoTotal (cantidad):
+    PagoTotal=calcularTotal(cantidad)-igv(cantidad)
     return PagoTotal
 
 def Precio(cantidad):
